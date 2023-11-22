@@ -31,3 +31,8 @@ class CysaPlus:
 class CaspPlus:
     split_id: str = "ACRONYM  SPELLED OUT"
     url = "https://partners.comptia.org/docs/default-source/resources/comptia-casp-cas-004-exam-objectives-(4-0)"
+
+
+class CloudPlus:
+    split_id: str = "ACRONYM  DEFINITION"
+    url = "https://partners.comptia.org/docs/default-source/resources/comptia-cloud-cv0-003-exam-objectives-%281-0%29"
