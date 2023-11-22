@@ -7,7 +7,7 @@ from comptia_flash.comptia import get_comptia_data
 
 
 def get_choices():
-    return ["a1", "a2", "net", "sec", "pen", "cysa", "casp"]
+    return ["a1", "a2", "net", "sec", "pen", "cysa", "casp", "cloud"]
 
 
 def main(argv: Optional[list[Any]] = None) -> None:
@@ -32,6 +32,8 @@ def main(argv: Optional[list[Any]] = None) -> None:
         data = get_comptia_data(constants.CysaPlus)
     elif args.comptia_test == "casp":
         data = get_comptia_data(constants.CaspPlus)
+    elif args.comptia_test == "cloud":
+        data = get_comptia_data(constants.CloudPlus)
     random.shuffle(data)
     print("\nPress <ENTER> to progress.\n")
     for data_item in data:
