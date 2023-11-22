@@ -3,7 +3,7 @@ name = "comptia-flash"
 version = "1.0.0"
 readme = "README.md"
 requires-python = ">= 3.12.0"
-keywords = ["comptia", "flashcards", "a+", "net+", "network+", "sec+", "security+", "cysa", "casp"]
+keywords = ["comptia", "flashcards", "a+", "net+", "network+", "sec+", "security+", "cysa", "casp", "cloud+"]
 
 authors = [
   {name = "Andrew Keller", email = "abkgit@gmail.com" }
