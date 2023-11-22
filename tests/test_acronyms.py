@@ -17,6 +17,7 @@ from comptia_flash.comptia import CompTIAData, get_comptia_data
         constants.PenPlus,
         constants.CysaPlus,
         constants.CaspPlus,
+        constants.CloudPlus,
     ],
 )
 def test_get_comptia_data(test_input):
@@ -34,6 +35,7 @@ def test_get_comptia_data(test_input):
         (["--comptia-test", "pen"], constants.PenPlus),
         (["--comptia-test", "cysa"], constants.CysaPlus),
         (["--comptia-test", "casp"], constants.CaspPlus),
+        (["--comptia-test", "cloud"], constants.CloudPlus),
     ],
 )
 @mock.patch("comptia_flash.__main__.get_comptia_data")
